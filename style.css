@@ -28,3 +28,11 @@ body{
     border-top-right-radius: 10px;
     overflow: hidden;
 }
+
+.buttons{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 1px;
+    background-color: #ddd;
+}
+
